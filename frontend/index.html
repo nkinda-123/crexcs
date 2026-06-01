@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cresensia Julius | Data Science & Cloud Portfolio</title>
+  <meta name="description" content="Portfolio of Cresensia Julius showcasing data science, cloud computing, and web development projects.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a class="brand-link" href="index.html">Cresensia Julius</a>
+      <span>Data Science & Cloud Portfolio</span>
+    </div>
+    <nav class="site-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <a href="about.html" class="nav-secondary">More</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Hi, I'm Cresensia.</p>
+        <h1>Building intelligent cloud solutions with data insights.</h1>
+        <p class="hero-text">I craft polished portfolio experiences, deploy cloud applications, and deliver meaningful analytics for business impact.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Work with me</a>
+          <a href="about.html" class="btn btn-secondary">Learn more</a>
+        </div>
+        <div class="hero-highlights">
+          <span>Python · Machine Learning · SQL</span>
+          <span>AWS · Vercel · Express</span>
+          <span>Data Visualization · API Design</span>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/profile1.jpg" alt="Portrait of Cresensia Julius">
+      </div>
+    </section>
+
+    <section id="about" class="section section-surface">
+      <div class="section-header">
+        <span class="section-label">About</span>
+        <h2>Data-driven solutions with a polished digital experience.</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p>I am a Data Science student and cloud computing learner, building real projects that solve business problems. I focus on creating clean web interfaces, reliable data pipelines, and cloud-hosted applications that are both functional and elegant.</p>
+          <ul class="feature-list">
+            <li>Experienced in Python, SQL, and machine learning workflows.</li>
+            <li>Skilled in backend APIs, responsive UI, and cloud deployment.</li>
+            <li>Committed to continuous learning and practical, project-based work.</li>
+          </ul>
+        </div>
+        <div class="info-card">
+          <h3>Quick facts</h3>
+          <div class="info-grid">
+            <div><span>Role</span><strong>Data Science Learner</strong></div>
+            <div><span>Focus</span><strong>Cloud & Web Apps</strong></div>
+            <div><span>Education</span><strong>BSc Data Science (Ongoing)</strong></div>
+            <div><span>Location</span><strong>Dar es Salaam, Tanzania</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-header">
+        <span class="section-label">Skills</span>
+        <h2>Technical strengths for modern data and cloud work.</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="card">
+          <img src="assets/python.png" alt="Python icon">
+          <h3>Python & ML</h3>
+          <p>Data processing, modeling, and analysis using Python, Pandas, and scikit-learn.</p>
+        </article>
+        <article class="card">
+          <img src="assets/cloud.png" alt="Cloud icon">
+          <h3>Cloud Infrastructure</h3>
+          <p>Deploying applications with AWS, Vercel, and Render for scalable delivery.</p>
+        </article>
+        <article class="card">
+          <img src="assets/sql and database.png" alt="Database icon">
+          <h3>Databases</h3>
+          <p>Designing and querying relational and NoSQL systems for clean data workflows.</p>
+        </article>
+        <article class="card">
+          <img src="assets/node and express.png" alt="Node.js icon">
+          <h3>Web & API Development</h3>
+          <p>Building responsive interfaces and REST APIs using JavaScript, Node.js, and Express.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-surface">
+      <div class="section-header">
+        <span class="section-label">Projects</span>
+        <h2>Selected work that demonstrates impact and polish.</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Cloud Deployment Demo</h3>
+          <p>Deployed a responsive app to the cloud with stable hosting and smooth user interaction.</p>
+          <div class="project-meta"><span>AWS · Vercel</span><span>Web App</span></div>
+        </article>
+        <article class="project-card">
+          <h3>Data Analytics Pipeline</h3>
+          <p>Built data pipelines for cleaning, transformation, and reporting using Python and databases.</p>
+          <div class="project-meta"><span>Python · SQL</span><span>Analytics</span></div>
+        </article>
+        <article class="project-card">
+          <h3>API & Backend Services</h3>
+          <p>Created backend APIs for contact forms and status monitoring, ready for production use.</p>
+          <div class="project-meta"><span>Node.js · Express</span><span>Backend</span></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="section-header">
+        <span class="section-label">Contact</span>
+        <h2>Let's build something together.</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-panel">
+          <h3>Send a message</h3>
+          <form id="portfolioContactForm">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p id="formResponse" class="form-response" role="status"></p>
+          </form>
+        </div>
+        <div class="status-panel">
+          <div class="status-card">
+            <h3>API Status</h3>
+            <p><strong>Status:</strong> <span id="api-status">Checking...</span></p>
+            <p><strong>Response:</strong> <span id="api-response">Waiting...</span></p>
+          </div>
+          <div class="contact-card">
+            <h3>More ways to connect</h3>
+            <p>Email: <a href="mailto:hello@cresensia.dev">cresensiaorestiusti@gmail.com</a></p>
+            <p>Location: Dar es Salaam, Tanzania</p>
+            <p>Availability: Open for internships, freelance, and collaboration.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="currentYear"></span> Cresensia Julius — Data Science & Cloud Portfolio</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
